@@ -5,7 +5,7 @@ body {
   background-color: #f9f9f9;
   color: #333;
 }
-
+/*Focuses on header styling*/
 header {
   background-color: #ffd699;
   padding: 20px;
@@ -30,7 +30,7 @@ nav ul {
 nav li {
   margin-right: 20px;
 }
-
+/*Styles navigation Links*/
 nav a {
   text-decoration: none;
   padding: 10px 20px;
@@ -114,7 +114,7 @@ button {
 nav a:hover {
   animation: pulse 0.3s infinite;
 }
-
+/*Animation to add pulse effect on the navigation buttons(Links) */
 @keyframes pulse {
   0%, 100% {
     opacity: 1;
@@ -145,7 +145,7 @@ nav a:hover {
   animation: bounceAndChangeColor 0.3s infinite;
   background-color: blue;
 }
-
+/*Animation for the item class when hovered over bounces and changes color */
 @keyframes bounceAndChangeColor {
   0%, 100% {
     transform: scale(1);
@@ -162,21 +162,22 @@ nav a:hover {
 .photos {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(2,1fr);
+  grid-template-rows: repeat(2, 1fr);
 }
 
 .style {
   width: 100%;
 }
 
-.curved-buttons{ 
+.curved-buttons {
   background-color: rgb(255, 132, 0);
 }
-.curved-buttons:hover{
+
+.curved-buttons:hover {
   animation: pulse 0.3s infinite;
   background-color: black;
-
 }
+
 @keyframes pulse {
   0%, 100% {
     opacity: 1;
@@ -188,7 +189,7 @@ nav a:hover {
     opacity: 1;
   }
 }
-
+/*Container for Items*/
 .Items {
   display: flex;
   flex-direction: column;
@@ -214,10 +215,11 @@ nav a:hover {
   font-weight: bold;
   margin-top: 5px;
 }
+
 img.logo {
   width: 200px;
   margin-right: auto;
-  animation: flip 2s infinite; 
+  animation: flip 2s infinite;
 }
 
 @keyframes flip {
@@ -231,7 +233,7 @@ img.logo {
     transform: perspective(800px) rotateY(360deg);
   }
 }
-.footer{
+/*focuses on the footer container*/
+.footer {
   color: #bfbfbf;
 }
-  
